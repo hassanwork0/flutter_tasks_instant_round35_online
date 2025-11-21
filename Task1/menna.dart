@@ -4,7 +4,7 @@ void main() {
   print('Please enter your age:');
   int userAge = int.parse(stdin.readLineSync()!);
   ageCategory(userAge);
-}21
+}
 
 void ageCategory(int age) {
   if (age < 12)
