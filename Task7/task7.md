@@ -45,7 +45,7 @@ Elements less than 5: [1, 1, 2, 3]
 ## Exercise 3: Number Divisors
 
 ### Description
-Create a program that asks the user for a number and prints out a list of all divisors of that number.
+Create a program that asks the user for a number and  oprintsut a list of all divisors of that number.
 
 ### Requirements
 - Accept user input for a number

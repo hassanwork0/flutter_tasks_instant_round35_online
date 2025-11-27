@@ -1,0 +1,50 @@
+import 'dart:io';
+void main(){
+//Exercise 1
+  stdout.write("Enter your name : ");
+String name =stdin.readLineSync()!;
+ stdout.write("Enter your age : ");
+int age =int.parse(stdin.readLineSync()!);
+int years= 100-age ;
+print("Hello $name! You have $years years until you turn 100.");
+
+
+///////////////////////////////////
+///////////////////////////////////
+
+
+//Exercise 2
+List <double> number = [];
+String answer ;
+do { 
+stdout.write("Enter element to your list : ");
+number.add(double.parse(stdin.readLineSync()!));
+stdout.write("do you want to enter another element Yes/No :");
+answer=stdin.readLineSync()!.toUpperCase();
+} while (answer == "YES");
+ for(double i in number ){
+   if (i < 5){
+     print("Elements less than 5 : ${i}");
+      }
+}
+
+
+////////////////////////////////
+///////////////////////////////
+
+
+  //Exercise 3
+
+List<int>num = [];
+stdout.write("Enter a number :  ");
+int number =int.parse(stdin.readLineSync()!);
+for(int i = 1 ; i<=number ; i++){
+  if(number % i ==0){
+    num.add(i);
+  }
+ print("Divisors of $number are: $num");
+
+///////////////////////////////
+//////////////////////////////
+
+}
